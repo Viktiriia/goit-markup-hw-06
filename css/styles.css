@@ -351,7 +351,6 @@ body {
 .placing-footer {
   display: flex;
   align-items: baseline;
-  gap: 100px;
 }
 .footer-text {
   max-width: 264px;
@@ -359,6 +358,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud-color);
+}
+.social-media-container {
+  margin-left: 120px;
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -411,17 +413,17 @@ body {
   fill: var(--cloud-color);
 }
 .subscribe-footer {
+  margin-left: 88px;
 }
 .footer-form {
   display: flex;
-  flex-direction: row;
-  position: relative;
   gap: 24px;
 }
 .subscribe-icon {
   fill: var(--background-color);
   position: relative;
   top: 5px;
+  margin-left: 10px;
 }
 .subscribe-footer-text {
   font-weight: 500;
@@ -444,11 +446,11 @@ body {
   padding-left: 16px;
   color: var(--background-color);
 }
+
 .btn-subscribe {
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  padding: 0 24px 10px 24px;
+  padding: 0 18px 8px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
@@ -629,7 +631,7 @@ body {
   display: block;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
@@ -648,6 +650,7 @@ body {
   position: relative;
   display: block;
   gap: 40px;
+  margin-top: 4px;
 }
 .modal-form-input {
   width: 360px;
@@ -662,6 +665,7 @@ body {
   border-color: var(--iris-color);
 }
 .modal-form-icon {
+  fill: var(--navy-blue-color);
   position: absolute;
   top: 50%;
   left: 19px;
@@ -701,9 +705,9 @@ body {
 }
 .modal-form-check:checked + .modal-form-desc::before {
   background-color: var(--iris-color);
-  background-image: url(../images/Vector-2.png);
+  background-image: url(../images/Vector-2.svg);
   background-position: center;
-  background-size: contain;
+
   background-repeat: no-repeat;
 }
 .modal-form-message:focus {
@@ -717,12 +721,12 @@ body {
   color: var(--light-slate-color);
 }
 
-.modal-form-check:focus + .modal-form-desc::before {
-  outline: var(--iris-color);
-}
 .user-policy {
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: var(--light-slate-color);
+}
+.modal-form-desc:focus::before {
+  border-color: var(--iris-color);
 }
