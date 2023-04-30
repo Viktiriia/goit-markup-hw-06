@@ -440,6 +440,8 @@ body {
   border-radius: 4px;
   background-color: var(--navy-blue-color);
   outline: none;
+  font-size: 12px;
+  line-height: 2;
   width: 264px;
   height: 40px;
   padding: 8px;
@@ -598,7 +600,7 @@ body {
   padding-bottom: 24px;
   padding-top: 72px;
   width: 408px;
-  height: 584px;
+  height: 605px;
   background-color: var(--dairy-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -651,10 +653,12 @@ body {
   display: block;
   gap: 40px;
   margin-top: 4px;
+  margin-bottom: 8px;
 }
 .modal-form-input {
   width: 360px;
   height: 40px;
+  font-size: 12px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 40px;
