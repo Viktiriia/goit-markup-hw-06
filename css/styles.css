@@ -721,12 +721,6 @@ body {
   color: var(--light-slate-color);
 }
 
-.user-policy {
-  font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.04em;
-  color: var(--light-slate-color);
-}
-.modal-form-desc:focus::before {
+.modal-form-check:focus + .modal-form-desc::before {
   border-color: var(--iris-color);
 }
